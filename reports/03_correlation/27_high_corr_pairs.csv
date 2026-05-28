@@ -1,0 +1,10 @@
+feature_a,feature_b,pearson_r,spearman_r,max_abs
+audio_convo_duration_ep_0,audio_convo_num_ep_0,0.9177,0.998,0.998
+audio_convo_duration_ep_0,audio_voice_ep_0,0.8616,0.984,0.984
+audio_convo_num_ep_0,audio_voice_ep_0,0.7939,0.9817,0.9817
+call_in_duration_ep_0,call_in_num_ep_0,0.5718,0.9594,0.9594
+audio_amp_mean_ep_0,audio_amp_std_ep_0,0.9489,0.9441,0.9489
+sms_in_num_ep_0,sms_out_num_ep_0,0.9407,0.8949,0.9407
+call_out_duration_ep_0,call_out_num_ep_0,0.5195,0.9331,0.9331
+light_mean_ep_0,light_std_ep_0,0.781,0.8742,0.8742
+other_playing_duration_ep_0,other_playing_num_ep_0,0.6894,0.8621,0.8621

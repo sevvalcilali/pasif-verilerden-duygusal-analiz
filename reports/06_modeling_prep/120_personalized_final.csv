@@ -1,0 +1,5 @@
+model,f1,auc,recall,precision,n_feat,not
+CLEAN HGB k=8 (baseline pasif),0.3599,0.6976,0.4519,0.299,159,eski baseline
+Personalized MEGA HGB (seed=42),0.4189,0.7717,0.5259,0.348,636,orig+dev+zsc+rzs
+Personalized MEGA (5-seed mean),0.4159,0.7579,,,636,std=0.034/0.028
+Personalized MEGA (en iyi seed=2024),0.4523,0.7827,0.5444,0.3868,636,lucky-bound

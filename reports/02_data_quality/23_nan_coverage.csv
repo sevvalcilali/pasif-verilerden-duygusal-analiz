@@ -1,0 +1,8 @@
+kategori,sütun_sayısı,nan_adet,toplam_nan_%
+light_*       (iOS sensörü yok),8,1548672,11.95
+call_*/sms_*  (tracking yok),28,5346880,41.25
+quality_*     (kalite raporu yok),4,190960,1.47
+sleep_*       (uyku ölçümü yok),4,137201,1.06
+loc_zone_*    (bölgeye uğramadı),47,5731842,44.22
+loc_dist_*    (fizik dışı kırpıldı),28,5329,0.04
+diğer,527,0,0.0

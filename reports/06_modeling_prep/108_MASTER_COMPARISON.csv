@@ -1,0 +1,10 @@
+model,kategori,input,ema_input,clean_label,f1,precision,recall,auc,notlar
+Random Forest 4-class,Baseline (4-class),Pasif (26 feature),False,False,0.3022,0.061,0.1481,,"İlk model, sınıf imbalance büyük problem"
+HGB 4-class (Optuna),Baseline (4-class),Pasif (26 feature),False,False,0.2934,0.0895,0.1481,,"Optuna tuning, RF'den marjinal daha kötü"
+Binary RF default thr=0.5,Binary (default),Pasif (26 feature),False,False,0.0693,0.1056,0.0481,0.6559,Threshold tuning olmadan zayıf
+RF_ext F1-opt,Threshold tuned,Pasif (127 feature),False,False,0.1964,0.1222,0.5,0.6697,Threshold tuning F1'i 3x artırdı
+Voting V1 (RF+HGB eşit),Ensemble,Pasif (127 feature),False,False,0.2298,0.2141,0.2481,0.6671,"Soft voting, F1 lideri"
+HGB temporal k=3,Lag features,Pasif + Lag (159),False,False,0.2173,0.1741,0.2889,0.6672,Lag features +%11 iyileşme
+CLEAN HGB k=8 F1-opt ⭐,Clean labels,Pasif + Lag (159),False,True,0.3599,0.299,0.4519,0.6976,"Sadece class 0+3, en iyi SAF PASIF F1"
+CLEAN RF k=5 F2-opt ⭐,Clean labels (klinik),Pasif + Lag (159),False,True,0.3358,0.1981,0.9074,0.6973,Klinik triaj: Recall=%91
+HİBRİT RF k=3 ⭐⭐⭐,Hybrid (EMA + Pasif),EMA + Pasif + Lag (183),True,True,1.0,1.0,1.0,1.0,Mükemmel (data leakage — phq4_total dominantı)

@@ -1,0 +1,7 @@
+model,f1_macro,accuracy,ekstra
+RF 4-class,0.3022,0.3743,f1_sinif_3=0.108
+HGB 4-class,0.2934,0.3464,f1_sinif_3=0.112
+RF_core,0.5105,0.9081,"AUC=0.656, recall_pos=0.048"
+RF_extended,0.5082,0.9126,"AUC=0.670, recall_pos=0.041"
+HGB_core,0.5142,0.747,"AUC=0.665, recall_pos=0.385"
+HGB_extended,0.5097,0.7876,"AUC=0.616, recall_pos=0.244"

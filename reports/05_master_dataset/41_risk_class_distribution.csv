@@ -1,0 +1,5 @@
+risk_sinifi,risk_isim,profil_risk_4_n,profil_risk_4_yuzde,profil_risk_4_manhattan_n,profil_risk_4_manhattan_yuzde,klinik_risk_4_n,klinik_risk_4_yuzde,final_risk_4_n,final_risk_4_yuzde
+0,İyi Durum,18805,53.86,27574,78.98,16948,48.54,14916,42.72
+1,Hafif Risk,10888,31.19,3513,10.06,9201,26.35,10063,28.82
+2,Orta Risk,3742,10.72,2757,7.9,7524,21.55,7878,22.56
+3,Yüksek Risk,1479,4.24,1070,3.06,1241,3.55,2057,5.89

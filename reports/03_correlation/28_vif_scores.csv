@@ -1,0 +1,28 @@
+feature,vif,not
+act_running_ep_0,,Sıfır varyans
+act_walking_ep_0,,Sıfır varyans
+other_playing_duration_ep_0,,Sıfır varyans
+other_playing_num_ep_0,,Sıfır varyans
+audio_convo_duration_ep_0,9.446,ok
+sms_out_num_ep_0,9.013,ok
+sms_in_num_ep_0,8.947,ok
+audio_amp_mean_ep_0,7.422,ok
+audio_amp_std_ep_0,5.527,ok
+audio_convo_num_ep_0,5.267,ok
+audio_voice_ep_0,4.772,ok
+light_mean_ep_0,2.622,ok
+light_std_ep_0,2.57,ok
+act_in_vehicle_ep_0,2.379,ok
+loc_dist_ep_0,2.214,ok
+call_in_num_ep_0,1.964,ok
+call_out_num_ep_0,1.851,ok
+act_still_ep_0,1.661,ok
+act_on_foot_ep_0,1.577,ok
+call_in_duration_ep_0,1.561,ok
+unlock_num_ep_0,1.534,ok
+loc_visit_num_ep_0,1.507,ok
+call_out_duration_ep_0,1.415,ok
+unlock_duration_ep_0,1.197,ok
+loc_max_dis_from_campus_ep_0,1.091,ok
+act_on_bike_ep_0,1.059,ok
+call_miss_num_ep_0,1.016,ok

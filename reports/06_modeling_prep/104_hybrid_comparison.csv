@@ -1,0 +1,5 @@
+model,f1,precision,recall,auc,n_features,ema_input
+"ÖNCEKİ — Voting V1 (tüm sınıflar, pasif only)",0.2298,0.2141,0.2481,0.6671,159,False
+"ÖNCEKİ — CLEAN HGB k=8 (pasif only, clean)",0.3599,0.299,0.4519,0.6976,159,False
+HİBRİT — RF k=3 F1-opt ⭐,1.0,1.0,1.0,1.0,183,True
+HİBRİT — RF k=3 F2-opt (klinik),1.0,1.0,1.0,1.0,183,True

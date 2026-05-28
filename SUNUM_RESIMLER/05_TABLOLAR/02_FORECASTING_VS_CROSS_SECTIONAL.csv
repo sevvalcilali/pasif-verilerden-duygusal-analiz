@@ -1,0 +1,4 @@
+yaklasım,input,target,f1,precision,recall,auc,yorum
+"Cross-sectional (HİBRİT, leakage var)",Bugün EMA + Pasif,Bugün risk,1.0,1.0,1.0,1.0,Data leakage — cascade ezberi
+"Cross-sectional (CLEAN PASİF, no leakage)",Bugün Pasif (sadece),Bugün risk,0.3599,0.299,0.4519,0.6976,Saf pasif sınırı
+Forecasting (EMA+Pasif → YARIN),Bugün EMA + Pasif,Yarın risk,0.9697,1.0,0.9412,0.9904,AKADEMİK TEMİZ — leakage yok

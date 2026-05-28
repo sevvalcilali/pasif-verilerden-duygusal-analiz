@@ -1,0 +1,8 @@
+model,f1_pos,precision,recall,auc,method
+ESKİ EN İYİ — Voting V1,0.2298,0.2141,0.2481,0.6671,"tüm sınıflar, voting"
+CLEAN RF k=3,0.3224,0.2029,0.7852,0.6846,clean labels (sınıf 0+3)
+CLEAN HGB k=3,0.3431,0.2364,0.6259,0.6841,clean labels (sınıf 0+3)
+CLEAN RF k=5,0.3358,0.224,0.6704,0.6973,clean labels (sınıf 0+3)
+CLEAN HGB k=5,0.3462,0.2703,0.4815,0.6972,clean labels (sınıf 0+3)
+CLEAN RF k=8,0.3445,0.2323,0.6667,0.7,clean labels (sınıf 0+3)
+CLEAN HGB k=8,0.3599,0.299,0.4519,0.6976,clean labels (sınıf 0+3)
