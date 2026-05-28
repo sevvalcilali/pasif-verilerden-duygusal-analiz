@@ -1,3 +1,4 @@
+# ─── Veri işleme / analiz ───
 pandas>=2.0.0
 numpy>=1.24.0
 matplotlib>=3.7.0
@@ -5,3 +6,12 @@ seaborn>=0.12.0
 scipy>=1.10.0
 tqdm>=4.65.0
 openpyxl>=3.1.0
+
+# ─── Modelleme (models/*.pkl bu sürümle pickle'landı; eğitim + tahmin için zorunlu) ───
+scikit-learn==1.6.1
+
+# ─── Backend (src/server.py — FastAPI REST API) ───
+fastapi>=0.110.0
+uvicorn>=0.27.0
+pydantic>=2.0.0
+shap>=0.44.0  # src/shap_analysis.py yorumlanabilirlik analizi için
